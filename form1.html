@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de Novos Usuários</h1>
+        <form method="post" action="#">
+
+            <label for="nomePessoa">Nome:</label><br>
+            <input name="nomePessoa" type="text" placeholder="Nome Completo" size="30" required><br><br>
+
+            <label for="emailPessoa">Email:</label><br>
+            <input name="emailPessoa" type="email" required><br><br>
+
+            <label for="senhaPessoa">Senha:</label><br>
+            <input name="senhaPessoa" type="password" placeholder="**********" maxlength="10" required><br><br>
+
+            <label for="confirmarsenhaPessoa">Confirme a Senha:</label><br>
+            <input name="confirmarsenhaPessoa" type="password" placeholder="**********" maxlength="10" required><br><br>
+            
+            <label for="perfilPessoa">Perfil:</label><br>
+            <select name="perfilPessoa">
+                <option value="" date-default disabled selected>Selecione um Perfil:</option>
+                <option value="opcao1">Jogador</option>
+                <option value="opcao2">Professor</option>
+                <option value="opcao3">Estudante</option>
+                <option value="opcao4">Administrador</option>
+            </select><br><br>
+</body>
+</html>
